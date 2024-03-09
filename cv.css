@@ -1,0 +1,134 @@
+
+.intro{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 100vh;
+background-image: url("https://www.desktopbackground.org/download/1280x900/2015/07/23/984042_hacker-anonymous-for-desktop-wallpaper-anonymous-wallpapers_1680x1050_h.jpg");
+background-size: cover;
+background-repeat: norepeat;
+overflow: hidden;
+
+}
+.nav-bar{
+width:85%;
+margin:50px 60px;
+display: flex;
+flex-direction: row;
+justify-content:flex-end;
+
+}
+h1{
+width: 20px;
+cursor: pointer;
+color: aqua;
+display: flex;
+algin-items: center;
+justify-content: flex-right;
+margin: -10px 720px 40px 0px;
+filter:drop-shadow(40px 10px 20px White);
+}
+h1:hover{
+color: red;
+
+}
+
+ul li{
+
+list-style-type: none;
+display: inline-block;
+margin:-5px 20px;
+position: relative;
+}
+a{
+text-decoration: none;
+color: aqua;
+text-transfrom: uppercase;
+}
+ul li::after{
+content:" ";
+height:3px;
+width: 0;
+background:Yellow;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition:0.5s;
+}
+ul li:hover::after{
+width: 100%;
+}
+
+.container{
+width: 40%;
+position: absolute;
+margin: 270px 150px 100px 490px;
+transfrom: translate(-50);
+text-algin: center;
+color: White;
+}
+h5{
+color:Yellow;
+font-size: 18px;
+}
+button{
+width: 30%;
+height: 40px;
+text-algin: center;
+cursor: pointer;
+background: transperent;
+color: Blue;
+border-radius: 25px;
+border-color:2px Black;
+box-shadow: 5px 5px 20px aqua;
+margin: 20px 10px;
+}
+button:hover{
+background: Green;
+color: White;
+
+}
+.fa-youtube{
+font-size: 40px;
+color: Red;
+display:flex;
+flex-direction: down;
+algin-items:center;
+margin: 15px;
+}
+
+.fa-instagram{
+font-size: 40px;
+color: Violet;
+display:flex;
+flex-direction: down;
+algin-items:center;
+margin: 15px;
+
+}
+.fa-whatsapp{
+font-size: 40px;
+color: Green;
+display:flex;
+flex-direction: down;
+algin-items:center;
+margin: 15px;
+
+}
+
+.fa-twitter{
+font-size: 40px;
+color: SkyBlue;
+display:flex;
+flex-direction: down;
+algin-items:center;
+margin: 15px;
+}
+.fa-linkedin{
+font-size: 40px;
+color: Blue;
+display:flex;
+flex-direction: down;
+algin-items:center;
+margin: 15px;
+}
