@@ -1,0 +1,76 @@
+.container{
+width: 100%;
+height: 100vh;
+background-image: url("https://wallpapers.com/images/hd/neon-red-light-bulb-luzbc2tw066v5679.jpg");
+background-size: cover;
+overflow:auto;
+
+
+}
+.container h1{
+color: aqua;
+display:flex;
+algin-items: center;
+justify-content: center;
+font-size:35px;
+
+}
+.child{
+display: grid;
+place-content: center;
+width:80%;
+height: 50%;
+margin: 5px 10px 10px 120px;
+box-sizing: border-box;
+overflow: auto;
+border-radius: 50px;
+
+background-color: rgba(206,203,203,0.5);
+backdrop-filter: blur(0px);
+
+
+}
+.child:hover{
+background-color:gray;
+cursor: pointer;
+}
+.child h1{
+color: aqua;
+margin: -10px 10px 10px 10px;
+}
+.child h2{
+color: violet;
+}
+.child h3{
+color: Yellow;
+}
+.child mark{
+background-color: Violet;
+}
+.acadamic{
+width: 80%;
+height: 60vh;
+display: grid;
+place-content: center;
+justify-content:center;
+box-sizing: border-box;
+border-radius: 50px;
+overflow:auto;
+background-color:rgba(206,203,203,0.5);
+backdrop-filter: blur(0px);
+margin: 30px 10px 10px 120px;
+}
+.acadamic:hover{
+background-color:gray;
+cursor:pointer;
+}
+.acadamic h1{
+color: OceanBlue;
+margin: -10px 10px 10px 10px;
+}
+.acadamic h2{
+color: Violet;
+}
+.acadamic h3{
+color: Yellow;
+}
